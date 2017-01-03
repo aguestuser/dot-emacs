@@ -12,11 +12,11 @@
 
 ;; dired
 (eval-after-load "dired-aux"
-  '(add-to-list 'dired-compress-file-suffixes 
+  '(add-to-list 'dired-compress-file-suffixes
                 '("\\.zip\\'" ".zip" "unzip")))
 
 ;; projectile everywhere!
-(projectile-global-mode)
+;; (projectile-global-mode)
 
 ;; ido
 
