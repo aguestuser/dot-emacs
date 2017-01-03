@@ -5,9 +5,9 @@
 ;; use shell env vars
 (use-package exec-path-from-shell :ensure t)
 (require 'exec-path-from-shell)
-(exec-path-from-shell-copy-env "SSH_AGENT_PID")
-(exec-path-from-shell-copy-env "SSH_AUTH_SOCK")
-(exec-path-from-shell-initialize)
+;; (exec-path-from-shell-copy-env "SSH_AGENT_PID")
+;; (exec-path-from-shell-copy-env "SSH_AUTH_SOCK")
+;; (exec-path-from-shell-initialize)
 
 ;; another way:
 ;; https://github.com/purcell/exec-path-from-shell
