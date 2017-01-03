@@ -54,7 +54,7 @@
   "Hooking JavaScript interpreter up to the JS Files." t nil)
 
 ;; Turn off fancy node prompt
-(setenv "NODE_NO_READLINE" "1")   
+(setenv "NODE_NO_READLINE" "1")
 
 ;; Use node as our repl
 (setq inferior-js-program-command "node")
@@ -163,4 +163,3 @@
               (flycheck-mode)
               (yas-minor-mode)
               (message "Loaded jsx specific stuff"))))
-
