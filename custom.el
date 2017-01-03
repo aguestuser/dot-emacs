@@ -10,6 +10,7 @@
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
  '(js2-mode-indent-ignore-first-tab t)
+ '(markdown-command "multimarkdown")
  '(nrepl-message-colors
    (quote
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
