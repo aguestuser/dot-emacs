@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("40f6a7af0dfad67c0d4df2a1dd86175436d79fc69ea61614d668a635c2cd94ab" default)))
+    ("cdbd0a803de328a4986659d799659939d13ec01da1f482d838b68038c1bb35e8" "40f6a7af0dfad67c0d4df2a1dd86175436d79fc69ea61614d668a635c2cd94ab" default)))
  '(fci-rule-color "#383838")
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
@@ -14,6 +14,7 @@
  '(nrepl-message-colors
    (quote
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
+ '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(racket-program "/Applications/Racket v6.1.1/bin/racket")
  '(raco-program "/Applications/Racket v6.1.1/bin/raco")
  '(tab-always-indent (quote complete))
