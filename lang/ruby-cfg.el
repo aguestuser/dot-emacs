@@ -11,7 +11,11 @@
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
 
 ;; enable robe-mode
-(add-hook 'ruby-mode-hook 'robe-mode)
+(add-hook 'ruby-mode-hook 'robe-mode) ; add hook
+(eval-after-load 'company
+  '(push 'company-robe company-backends)) ; company mode
+(add-hook 'robe-mode-hook 'ac-robe-setup) ; auto-complete
+
 
 ;; enable launching rspec from dired
 (add-hook 'dired-mode-hook 'rspec-dired-mode)
