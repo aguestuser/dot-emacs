@@ -41,3 +41,4 @@
 
 (load "magit-cfg.el")
 (load "notmuch-cfg.el")
+(load "org-mode-cfg.el")
