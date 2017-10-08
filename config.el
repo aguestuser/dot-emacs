@@ -30,6 +30,7 @@
 (load "golang-cfg.el")
 (load "javascript-cfg.el")
 (load "markdown-cfg.el")
+(load "python-cfg.el")
 (load "racket-cfg.el")
 (load "ruby-cfg.el")
 
