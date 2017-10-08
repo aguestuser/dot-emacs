@@ -19,6 +19,7 @@
 (load "navigation-cfg.el")
 (load "shell-cfg.el")
 (load "ui-cfg.el")
+(load "opening-cfg.el")
 
 ;;;;;;;;;;;
 ;; langs ;;
