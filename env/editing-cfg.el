@@ -25,9 +25,9 @@
 (use-package multiple-cursors :ensure t)
 (require 'multiple-cursors)
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+(global-set-key (kbd "M-j") 'mc/mark-next-like-this)
+(global-set-key (kbd "M-J") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-M-J") 'mc/mark-all-like-this)
 
 ;; autocomplete
 (use-package auto-complete :ensure t)
