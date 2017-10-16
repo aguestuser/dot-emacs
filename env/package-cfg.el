@@ -5,6 +5,8 @@
 (require 'package)
 (setq package-enable-at-startup nil)
 (add-to-list 'package-archives
+             '("marmalade" . "https://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 (add-to-list 'package-archives 
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
