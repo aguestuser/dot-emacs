@@ -4,6 +4,7 @@
 
 ;; pair completion
 (electric-pair-mode 1)
+(smartparens-global-mode)
 (setq electric-pair-pairs '((?\" . ?\")(?\{ . ?\}))) ;; include {} and "" as pairs
 
 ;; tabbing
